@@ -1,0 +1,29 @@
+// ----------------------------------------------------------------------------
+// Bootstrap configuration
+// ----------------------------------------------------------------------------
+@import "bootstrap";
+@import "bootstrap/theme";
+// ----------------------------------------------------------------------------
+// Application settings
+// ----------------------------------------------------------------------------
+@import 'settings/colors';
+@import 'settings/dimensions';
+
+// ----------------------------------------------------------------------------
+// Application component imports
+// ----------------------------------------------------------------------------
+@import "components/header";
+@import "components/content";
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700,900');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Playfair Display SC', serif;
+}
+
+html,
+body {
+  min-height: 100%;
+}
